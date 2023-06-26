@@ -7,7 +7,7 @@ export init_project
     mkdir(project_path*"/"*project_name*"/conf")
     mkdir(project_path*"/"*project_name*"/conf/base")
     mkdir(project_path*"/"*project_name*"/conf/local")
-    mkdir(project_path*"/"*project_name*"/conf/README.md")
+    touch(project_path*"/"*project_name*"/conf/README.md")
     mkdir(project_path*"/"*project_name*"/data")
     mkdir(project_path*"/"*project_name*"/data/01 Raw")
     mkdir(project_path*"/"*project_name*"/data/02 Intermediate")
@@ -25,6 +25,7 @@ export init_project
     mkdir(project_path*"/"*project_name*"/src/"*project_name*"/Package")
     mkdir(project_path*"/"*project_name*"/src/"*project_name*"/Pipelines")
     touch(project_path*"/"*project_name*"/README.md")
+    println("Project $(project_name) has been initialized successfully at $(project_path) location.")
 end
   
 end
