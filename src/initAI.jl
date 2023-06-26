@@ -1,0 +1,5 @@
+module initAI
+
+# Write your package code here.
+
+end
